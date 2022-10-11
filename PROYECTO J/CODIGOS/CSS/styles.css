@@ -1,0 +1,72 @@
+:root{
+
+  /*Colores variables */
+  --azul: #1B4DE2;
+  --blanco:  #FFFFFF;
+  --negro: #000000;
+  --azulclaro: #1FA9DA;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-block;
+  display: block;
+  color: var(--azul);
+}
+
+
+/* Colores personalizados */
+
+/* Fondo de los submenu */
+.bg-primary {
+    background-color: var(--azul) !important;
+}
+
+/* Fondo */
+.bg-dark {
+  background-color: var(--negro) !important;
+}
+
+.bg-secondary {
+  background-color: var(--azulclaro) !important;
+}
+
+/* Colores de letra*/
+.text-primary {
+  --bs-text-opacity: 2;
+  color: var(--azul); !important;
+}
+
+.text-dark {
+  --bs-text-opacity: 1;
+  color: var(--negro); !important;
+}
+
+a { 
+    text-decoration: none; 
+    color: black;
+  } 
+
+a:hover{
+  text-shadow: 0 10 0px var(--azulclaro);
+}
+
+
+/* Color de botones */
+.btn-primary {
+  --bs-btn-color: #fff;  /* Color de letra */
+  --bs-btn-bg: var(--azul);  /* Fondo del boton */
+  --bs-btn-border-color: var(--blanco);  /* Color de borde del boton */
+  --bs-btn-hover-color: #fff;  /* Color de sombra al pasar el cursor */
+  --bs-btn-hover-bg: var(--azulclaro);   /* Color de fondo al pasar el cursor */
+  --bs-btn-hover-border-color: #fff;   /* Color de borde al pasar el cursor */
+  --bs-btn-focus-shadow-rgb: 49,132,253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #0a58ca;
+  --bs-btn-active-border-color: #0a53be;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #0d6efd;
+  --bs-btn-disabled-border-color: #0d6efd;
+}
+
